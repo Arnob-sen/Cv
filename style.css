@@ -22,10 +22,14 @@ body {
 .left{
     position: initial;
     padding: 20px;
-    background-color:rgb(212, 214, 216);
+    background-color:rgb(255, 255, 255);
 }
 .right{
     position:initial;
     padding: 20px;
-    background-color: #f1f1fa;
+    background-color: #f4f4f4;
+}
+.image, .contact, .Skill, .Language, .Sports, .title, 
+.summary, .award, .education, .project {
+    margin-bottom: 30px;
 }
