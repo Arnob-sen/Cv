@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    margin: 0px;
+    max-width: 1000px;
+    min-height: 100px;
+}
+.left{
+    position: initial;
+    padding: 20px;
+    background-color:rgb(212, 214, 216);
+}
+.right{
+    position:initial;
+    padding: 20px;
+    background-color: #f1f1fa;
+}
